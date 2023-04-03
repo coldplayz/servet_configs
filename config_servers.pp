@@ -27,9 +27,9 @@ package { 'mysql-server':
   ensure => '8.0.32-0ubuntu0.20.04.2',
 }
 
-package { 'git':
-  ensure => '1:2.25.1-1ubuntu3.8',
-}
+#package { 'git':
+#  ensure => '1:2.25.1-1ubuntu3.8',
+#}
 
 package { 'curl':
   ensure => installed,  # version '7.68.0-1ubuntu2.18' on my Android
@@ -77,5 +77,12 @@ package { 'Flask-Cors':
 package { 'Flask-WTF':
   ensure   => '1.0.1',
   require  => Package['python3', 'Flask'],
+  provider => pip3,
+}
+
+# Requirements installed implicitly: [invoke, paramiko]
+package { 'Fabric':
+  ensure   => '3.0.0',
+  require  => Package['python3'],
   provider => pip3,
 }
