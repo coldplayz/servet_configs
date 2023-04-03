@@ -4,5 +4,5 @@
 apt-get install -y ruby=1:2.7+1 --allow-downgrades
 apt-get install -y ruby-augeas
 apt-get install -y ruby-shadow
-apt-get install -y puppet=5.5.0  # or leave out version number
+apt-get install -y puppet='5.5.10-4ubuntu3'  # or leave out version number
 gem install puppet-lint
