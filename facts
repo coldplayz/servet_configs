@@ -1,0 +1,5378 @@
+{
+  "name": "localhost",
+  "values": {
+    "architecture": "aarch64",
+    "facterversion": "3.11.0",
+    "fips_enabled": false,
+    "fqdn": "localhost",
+    "gid": "root",
+    "hardwareisa": "aarch64",
+    "hardwaremodel": "aarch64",
+    "hostname": "localhost",
+    "id": "root",
+    "identity": {
+      "gid": 0,
+      "group": "root",
+      "privileged": true,
+      "uid": 0,
+      "user": "root"
+    },
+    "is_virtual": false,
+    "kernel": "Linux",
+    "kernelmajversion": "4.19",
+    "kernelrelease": "4.19.127-g46fd66a40fe8-dirty",
+    "kernelversion": "4.19.127",
+    "lsbdistcodename": "focal",
+    "lsbdistdescription": "Ubuntu 20.04.5 LTS",
+    "lsbdistid": "Ubuntu",
+    "lsbdistrelease": "20.04",
+    "lsbmajdistrelease": "20.04",
+    "memory": {
+      "swap": {
+        "available": "381.21 MiB",
+        "available_bytes": 399728640,
+        "capacity": "81.84%",
+        "total": "2.05 GiB",
+        "total_bytes": 2201518080,
+        "used": "1.68 GiB",
+        "used_bytes": 1801789440
+      },
+      "system": {
+        "available": "891.32 MiB",
+        "available_bytes": 934612992,
+        "capacity": "76.65%",
+        "total": "3.73 GiB",
+        "total_bytes": 4002770944,
+        "used": "2.86 GiB",
+        "used_bytes": 3068157952
+      }
+    },
+    "memoryfree": "891.32 MiB",
+    "memoryfree_mb": 891.31640625,
+    "memorysize": "3.73 GiB",
+    "memorysize_mb": 3817.33984375,
+    "mountpoints": {
+      "/": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-3",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/apex": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.adbd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-18",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.adbd@331314020": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-18",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.apex.cts.shim": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop25",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.apex.cts.shim@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop25",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.art": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop28",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.art@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop28",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.cellbroadcast": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-13",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.cellbroadcast@331510000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-13",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.conscrypt": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-5",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.conscrypt@331411000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-5",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.extservices": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-8",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.extservices@331412000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-8",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.i18n": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop24",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.i18n@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop24",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.ipsec": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-7",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.ipsec@331310000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-7",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.media": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-16",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.media.swcodec": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-15",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.media.swcodec@331511000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-15",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.media@331511000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-16",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.mediaprovider": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-12",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.mediaprovider@331512020": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-12",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.neuralnetworks": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-20",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.neuralnetworks@331310000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-20",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.os.statsd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-10",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.os.statsd@331511000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-10",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.permission": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-17",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.permission@331512020": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-17",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.resolv": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-14",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.resolv@331512000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-14",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.runtime": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop23",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.runtime@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop23",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.sdkext": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-9",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.sdkext@331410000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-9",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.tethering": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-11",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.tethering@331511000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-11",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.tzdata": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-19",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.tzdata@303900102": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-19",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.vndk.v30": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop26",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.vndk.v30@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop26",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.wifi": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop27",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.android.wifi@300000000": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop27",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.transsion.kolun": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop22",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.transsion.kolun@66": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop22",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.transsion.mi.os.framework": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop21",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/apex/com.transsion.mi.os.framework@1": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/loop21",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "dirsync",
+          "seclabel",
+          "nodev",
+          "noatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data/data": {
+        "available": "1.86 GiB",
+        "available_bytes": 2001383424,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "mode=751"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2001383424,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data/data/com.google.android.gms": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data/data/tech.ula": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data/misc/profiles/cur": {
+        "available": "1.86 GiB",
+        "available_bytes": 2001383424,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "mode=751"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2001383424,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data/misc/profiles/cur/0/tech.ula": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data/user": {
+        "available": "1.86 GiB",
+        "available_bytes": 2001383424,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "mode=751"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2001383424,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data/user/0": {
+        "available": "1.86 GiB",
+        "available_bytes": 2001383424,
+        "capacity": "0%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2001383424,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data/user_de": {
+        "available": "1.86 GiB",
+        "available_bytes": 2001383424,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "mode=751"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2001383424,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data/user_de/0/com.google.android.gms": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data/user_de/0/tech.ula": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/data_mirror": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=700",
+          "gid=1000"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data_mirror/cur_profiles": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data_mirror/data_ce/null": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data_mirror/data_ce/null/0": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/data_mirror/data_de/null": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-6",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev": {
+        "available": "1.86 GiB",
+        "available_bytes": 1998614528,
+        "capacity": "0.11%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2000760832,
+        "used": "2.05 MiB",
+        "used_bytes": 2146304
+      },
+      "/dev/HiMVBB": {
+        "available": "1.86 GiB",
+        "available_bytes": 1996992512,
+        "capacity": "0.19%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2000760832,
+        "used": "3.59 MiB",
+        "used_bytes": 3768320
+      },
+      "/dev/HiMVBB/.magisk/mirror/data": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/data",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "relatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev/HiMVBB/.magisk/mirror/product": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/product",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev/HiMVBB/.magisk/mirror/system_ext": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_ext",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev/HiMVBB/.magisk/mirror/system_root": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev/HiMVBB/.magisk/mirror/vendor": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/vendor",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/dev/HiMVBB/.magisk/modules": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/data",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "relatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/linkerconfig": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/metadata": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/md_udc",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "discard"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt": {
+        "available": "1.86 GiB",
+        "available_bytes": 2000760832,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755",
+          "gid=1000"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2000760832,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/androidwritable": {
+        "available": "1.86 GiB",
+        "available_bytes": 2000760832,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755",
+          "gid=1000"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2000760832,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/androidwritable/0/emulated": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/fuse",
+        "filesystem": "fuse",
+        "options": [
+          "rw",
+          "lazytime",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "noatime",
+          "user_id=0",
+          "group_id=0",
+          "allow_other"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/installer": {
+        "available": "1.86 GiB",
+        "available_bytes": 2000760832,
+        "capacity": "0%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755",
+          "gid=1000"
+        ],
+        "size": "1.86 GiB",
+        "size_bytes": 2000760832,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/installer/0/emulated": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/fuse",
+        "filesystem": "fuse",
+        "options": [
+          "rw",
+          "lazytime",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "noatime",
+          "user_id=0",
+          "group_id=0",
+          "allow_other"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/user/0/emulated": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/fuse",
+        "filesystem": "fuse",
+        "options": [
+          "rw",
+          "lazytime",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "noatime",
+          "user_id=0",
+          "group_id=0",
+          "allow_other"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/vendor/nvcfg": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/nvcfg",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "nodelalloc",
+          "noauto_da_alloc",
+          "commit=1"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/vendor/nvdata": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/nvdata",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "nodelalloc",
+          "noauto_da_alloc",
+          "commit=1"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/vendor/persist": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/persist",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "nodelalloc",
+          "noauto_da_alloc",
+          "commit=1"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/vendor/protect_f": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/protect1",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "nodelalloc",
+          "noauto_da_alloc",
+          "commit=1"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/mnt/vendor/protect_s": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/platform/bootdevice/by-name/protect2",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noatime",
+          "nodelalloc",
+          "noauto_da_alloc",
+          "commit=1"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/product": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-1",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/storage": {
+        "available": "2.83 GiB",
+        "available_bytes": 3041214464,
+        "capacity": "94.36%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755",
+          "gid=1000"
+        ],
+        "size": "50.21 GiB",
+        "size_bytes": 53916696576,
+        "used": "47.38 GiB",
+        "used_bytes": 50875482112
+      },
+      "/storage/emulated": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/fuse",
+        "filesystem": "fuse",
+        "options": [
+          "rw",
+          "lazytime",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "noatime",
+          "user_id=0",
+          "group_id=0",
+          "allow_other"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/AudioSetParam": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/abb": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/am": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/apexd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/app_process32": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/app_process64": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/appops": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/appwidget": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/atrace": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/audioserver": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/audiotest": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/auditctl": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/awk": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/badblocks": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/batterywarning": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bcc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/blank_screen": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/blkid": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bmgr": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/boot_logo_updater": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bootanimation": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bootstat": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bootstrap": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/boringssl_self_test32": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/boringssl_self_test64": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bpfloader": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bu": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bugreport": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bugreportz": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/busybox": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/data",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "relatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/bzip2": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/camerapostalgo": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/cameraserver": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/charger": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/clatd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/cmd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/connsyslogger": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/content": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/cppreopts.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/crash_dump32": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/crash_dump64": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/credstore": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/debuggerd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/device_config": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/dmctl": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/dnsmasq": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/dpm": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/drmserver": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/dumpstate": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/dumpsys": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/e2freefrag": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/e2fsck": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/e2fsdroid": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/flags_health_check": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/fsck.exfat": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/fsck.f2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/fsck_msdos": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/fsverity_init": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/gatekeeperd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/gpuservice": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/gsi_tool": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/gsid": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/heapprofd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/hid": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/hw": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/hwservicemanager": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/idmap2": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/idmap2d": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ime": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/incident": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/incident-helper-cmd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/incident_helper": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/incidentd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/init": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/input": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/installd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iorap.cmd.compiler": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iorap.cmd.maintenance": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iorap.inode2filename": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iorap.prefetcherd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iorapd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ip": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/iptables": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/keystore": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/keystore_cli_v2": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/kpoc_charger": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lbs_dbg": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lcdc_screen_cap": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ld.mc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ldd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/librank": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/linkerconfig": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lmkd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/locksettings": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/logcat": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/logd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/loghidlsysservice": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/logwrapper": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lpdump": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lpdumpd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/lshal": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/magisk": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/magiskpolicy": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "tmpfs",
+        "filesystem": "tmpfs",
+        "options": [
+          "rw",
+          "seclabel",
+          "relatime",
+          "size=1953868k",
+          "nr_inodes=488467",
+          "mode=755"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/make_f2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mdnsd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mediaextractor": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mediametrics": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mediaserver": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/meminfo.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/migrate_legacy_obb_data.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mini-keyctl": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mke2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mkfs.exfat": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mobile_log_d": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/modemdbfilter_client": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/monkey": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/move_widevine_data.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mtk_plpath_utils": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/mtpd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ndc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/netd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/netdiag": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/netutils-wrapper-1.0": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/newfs_msdos": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/notify_traceur.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/oem-iptables-init.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/osi": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/osi_bin": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/otapreopt": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/otapreopt_chroot": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/otapreopt_script": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/otapreopt_slot": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/perfetto": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ping": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ping6": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/pm": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/pppd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/preloads_copy.sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/preopt2cachename": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/procrank": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/racoon": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/reboot": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/recovery-persist": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/requestsync": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/resize2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/rss_hwm_reset": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/run-as": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/schedtest": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/screencap": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/screenrecord": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sdcard": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/secdiscard": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/secilc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sensorservice": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/service": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/servicemanager": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/set-verity-state": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/settings": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sgdisk": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sh": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/showmap": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/simpleperf": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/simpleperf_app_runner": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sload_f2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/sm": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/snapshotctl": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ss": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/storaged": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/surfaceflinger": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/svc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tcpdump": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/telecom": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/terservice": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/thermald": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tne": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tne_dumpstate": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tombstoned": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/toolbox": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/toybox": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/traced": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/traced_perf": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/traced_probes": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/trigger_perfetto": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tune2fs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/tzdatacheck": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/uiautomator": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/uncrypt": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/update_engine": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/update_verifier": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/usbd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/vdc": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/viewcompiler": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/vold": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/vold_prepare_subdirs": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/vr": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/vtservice": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/wait_for_keymaster": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/watchdogd": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/wificond": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/wm": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/bin/ziptool": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/system_root",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system/etc/hosts": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/HiMVBB/.magisk/block/data",
+        "filesystem": "f2fs",
+        "options": [
+          "rw",
+          "lazytime",
+          "seclabel",
+          "relatime",
+          "background_gc=on",
+          "discard",
+          "no_heap",
+          "user_xattr",
+          "inline_xattr",
+          "acl",
+          "inline_data",
+          "inline_dentry",
+          "flush_merge",
+          "extent_cache",
+          "mode=adaptive",
+          "active_logs=6",
+          "reserve_root=25686",
+          "resuid=0",
+          "resgid=1065",
+          "inlinecrypt",
+          "alloc_mode=default",
+          "fsync_mode=posix"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/system_ext": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-0",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/vendor": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "/dev/block/dm-2",
+        "filesystem": "ext4",
+        "options": [
+          "ro",
+          "seclabel",
+          "relatime"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      }
+    },
+    "networking": {
+      "fqdn": "localhost",
+      "hostname": "localhost"
+    },
+    "operatingsystem": "Ubuntu",
+    "operatingsystemmajrelease": "20.04",
+    "operatingsystemrelease": "20.04",
+    "os": {
+      "architecture": "aarch64",
+      "distro": {
+        "codename": "focal",
+        "description": "Ubuntu 20.04.5 LTS",
+        "id": "Ubuntu",
+        "release": {
+          "full": "20.04",
+          "major": "20.04"
+        }
+      },
+      "family": "Debian",
+      "hardware": "aarch64",
+      "name": "Ubuntu",
+      "release": {
+        "full": "20.04",
+        "major": "20.04"
+      },
+      "selinux": {
+        "enabled": true,
+        "enforced": false
+      }
+    },
+    "osfamily": "Debian",
+    "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin",
+    "physicalprocessorcount": 2,
+    "processorcount": 8,
+    "processors": {
+      "count": 8,
+      "isa": "aarch64",
+      "physicalcount": 2,
+      "speed": "2.00 GHz"
+    },
+    "puppetversion": "5.5.10",
+    "ruby": {
+      "platform": "aarch64-linux-gnu",
+      "sitedir": "/usr/local/lib/site_ruby/2.7.0",
+      "version": "2.7.0"
+    },
+    "rubyplatform": "aarch64-linux-gnu",
+    "rubysitedir": "/usr/local/lib/site_ruby/2.7.0",
+    "rubyversion": "2.7.0",
+    "selinux": true,
+    "selinux_enforced": false,
+    "swapfree": "381.21 MiB",
+    "swapfree_mb": 381.2109375,
+    "swapsize": "2.05 GiB",
+    "swapsize_mb": 2099.53125,
+    "system_uptime": {
+      "days": 2,
+      "hours": 62,
+      "seconds": 223648,
+      "uptime": "2 days"
+    },
+    "timezone": "UTC",
+    "uptime": "2 days",
+    "uptime_days": 2,
+    "uptime_hours": 62,
+    "uptime_seconds": 223648,
+    "virtual": "physical",
+    "clientcert": "localhost",
+    "clientversion": "5.5.10",
+    "clientnoop": false
+  },
+  "timestamp": "2023-04-03T09:18:27.712255337+00:00",
+  "expiration": "2023-04-03T09:48:27.734751721+00:00"
+}

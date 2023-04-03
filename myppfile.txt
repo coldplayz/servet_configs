@@ -1,0 +1,2 @@
+My content for testing Puppet 5.5.10 aarch64 28
+www-data - nofile 32768
