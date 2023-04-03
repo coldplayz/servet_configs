@@ -1,2 +1,18 @@
 /usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
 /usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:315: warning: deprecated Object#=~ is called on Puppet::Transaction::Report; it always returns nil
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:315: warning: deprecated Object#=~ is called on Puppet::Transaction::Report; it always returns nil
+Exiting
+[1;31mError: /Stage[main]/Main/Package[mysql-server]/ensure: change from 'purged' to '8.0.32-0ubuntu0.20.04.2' failed: exit[0m
+/usr/lib/ruby/vendor_ruby/puppet/file_system/uniquefile.rb:126: warning: $SAFE will become a normal global variable in Ruby 3.0
+/usr/lib/ruby/vendor_ruby/puppet/file_system/uniquefile.rb:126: warning: $SAFE will become a normal global variable in Ruby 3.0
+/usr/lib/ruby/vendor_ruby/puppet/util.rb:315: warning: deprecated Object#=~ is called on Puppet::Transaction::Report; it always returns nil
+Exiting

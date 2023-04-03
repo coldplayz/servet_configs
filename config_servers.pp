@@ -19,6 +19,11 @@ package { 'python3':
   ensure => '3.8.2-0ubuntu2',  # check if it installs pip3 implicitly
 }
 
+package { 'pip':
+  ensure  => installed,
+  require => Package['python3'],
+}
+
 package { 'nginx':
   ensure => '1.18.0-0ubuntu1.4',
 }
@@ -38,14 +43,14 @@ package { 'curl':
 # Requirements installed implicitly: [greenlet, typing-extensions]
 package { 'SQLAlchemy':
   ensure   => '2.0.1',
-  require  => Package['python3'],
+  require  => Package['python3', 'pip'],
   provider => pip3,
 }
 
 # Requirements installed implicitly: [Jinja2, Werkzeug, click, itsdangerous, importlib-metadata]
 package { 'Flask':
   ensure   => '2.2.2',
-  require  => Package['python3'],
+  require  => Package['python3', 'pip'],
   provider => pip3,
 }
 
@@ -53,6 +58,7 @@ package { 'Flask-SQLAlchemy':
   ensure   => '3.0.3',
   require  => Package[
     'python3',
+    'pip',
     'Flask',
     'SQLAlchemy',
   ],
@@ -62,27 +68,27 @@ package { 'Flask-SQLAlchemy':
 # Requirements installed implicitly: [Werkzeug]
 package { 'Flask-Login':
   ensure   => '0.6.2',
-  require  => Package['python3', 'Flask'],
+  require  => Package['python3', 'pip', 'Flask'],
   provider => pip3,
 }
 
 # Requirements installed implicitly: [six]
 package { 'Flask-Cors':
   ensure   => '3.0.10',
-  require  => Package['python3', 'Flask'],
+  require  => Package['python3', 'pip', 'Flask'],
   provider => pip3,
 }
 
 # Requirements installed implicitly: [WTForms, itsdangerous]
 package { 'Flask-WTF':
   ensure   => '1.0.1',
-  require  => Package['python3', 'Flask'],
+  require  => Package['python3', 'pip', 'Flask'],
   provider => pip3,
 }
 
 # Requirements installed implicitly: [invoke, paramiko]
 package { 'Fabric':
   ensure   => '3.0.0',
-  require  => Package['python3'],
+  require  => Package['python3', 'pip'],
   provider => pip3,
 }
