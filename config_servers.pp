@@ -16,9 +16,10 @@
 # ..puppet would represent the resource, in a manifest, in its current state on the system. E.g. `puppet resource package pip`
 
 package { 'python3':
-  ensure => '3.8.2-0ubuntu2',  # check if it installs pip3 implicitly
+  ensure => '3.8.2-0ubuntu2',  # check if it installs pip3 implicitly; no, doesn't
 }
 
+# Installs both pip and pip3
 package { 'pip':
   ensure  => installed,
   require => Package['python3'],
@@ -28,9 +29,29 @@ package { 'nginx':
   ensure => '1.18.0-0ubuntu1.4',
 }
 
-package { 'mysql-server':
-  ensure => '8.0.32-0ubuntu0.20.04.2',
+service { 'nginx':
+  ensure => running,
+  enable => true,
 }
+
+#package { 'mysql-server':
+#  ensure => '8.0.32-0ubuntu0.20.04.2',
+#}
+
+# Use the puppetlabs/mysql module; to be installed by user
+class { '::mysql::server':
+  package_name     => 'mysql-server',
+  package_ensure   => '8.0.32-0ubuntu0.20.04.2',
+  root_password    => '',  # no password
+  restart          => true,
+  # service_provider => 'service',
+}
+
+# Already declared in the managing module
+#service { 'mysql':
+#  ensure => running,
+#  enable => true,
+#}
 
 #package { 'git':
 #  ensure => '1:2.25.1-1ubuntu3.8',
