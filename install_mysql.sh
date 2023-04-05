@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Script for installing MySQL
 
+apt-get install gnupg  # required for the next command
+
 apt-key adv --keyserver pgp.mit.edu --recv-keys 3A79BD29  # get GPG keys
 
 
