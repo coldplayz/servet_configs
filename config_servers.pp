@@ -25,9 +25,9 @@ package { 'pip':
   require => Package['python3'],
 }
 
-package { 'nginx':
-  ensure => '1.18.0-0ubuntu1.4',
-}
+#package { 'nginx':
+#  ensure => '1.18.0-0ubuntu1.4',
+#}
 
 service { 'nginx':
   ensure => running,
@@ -64,6 +64,12 @@ package { 'curl':
 # Requirements installed implicitly: [greenlet, typing-extensions]
 package { 'SQLAlchemy':
   ensure   => '2.0.1',
+  require  => Package['python3', 'pip'],
+  provider => pip3,
+}
+
+package { 'mysqlclient':
+  ensure   => '2.1.1',
   require  => Package['python3', 'pip'],
   provider => pip3,
 }
