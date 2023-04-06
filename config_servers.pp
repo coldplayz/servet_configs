@@ -15,6 +15,12 @@
 # Use `puppet resource <resoure_type> <resource_name>` to show how
 # ..puppet would represent the resource, in a manifest, in its current state on the system. E.g. `puppet resource package pip`
 
+# TODOs:
+# 1. Use file_line resource to ensure the `export RUBYOPT...` line in /etc/bash.bashrc
+# 2. Use an exec resource to apply OpenSSL fix if pyOpenSSL version is not 22.0.0
+# 3. Use exec to install mysqlclient from fabfile if not exists
+# 4. Use an exec to source the bashrc file on changing
+
 package { 'python3':
   ensure => '3.8.2-0ubuntu2',  # check if it installs pip3 implicitly; no, doesn't
 }
@@ -23,6 +29,28 @@ package { 'python3':
 package { 'pip':
   ensure  => installed,
   require => Package['python3'],
+}
+
+# Apply OpenSSL fix, conditionally; TODO2
+exec { 'openssl_fix':
+  command => 'fab OpenSSL_fix',
+  require => Package['python3', 'pip'],
+  path    => "${facts['path']}",
+  unless  => "test -d /usr/local/lib/python3.8/dist-packages/pyOpenSSL-22.0.0.dist-info/",
+}
+
+# Permanently set environment variable needed for `generate-puppetfile` to
+# ...work without encoding errors, using file_line resource from stdlib module; TODO1
+file_line { 'rubyopt':
+  path => '/etc/bash.bashrc',
+  line => "export RUBYOPT='-KU -E utf-8:utf-8'",
+}
+
+# Source the bashrc file on exporting RUBYOPT env. variable; TODO4
+exec { 'source_bashrc':
+  command   => 'source /etc/bash.bashrc',
+  path      => "${facts['path']}",
+  subscribe => File_line['rubyopt'],
 }
 
 #package { 'nginx':
@@ -43,7 +71,7 @@ class { '::mysql::server':
   package_name   => 'mysql-server',
   package_ensure => '8.0.32-0ubuntu0.20.04.2',
   root_password  => '',  # no password
-  restart        => true,
+  restart        => true,  # restart service on config change
   # service_provider => 'service',
 }
 
@@ -68,10 +96,12 @@ package { 'SQLAlchemy':
   provider => pip3,
 }
 
-package { 'mysqlclient':
-  ensure   => '2.1.1',
-  require  => Package['python3', 'pip'],
-  provider => pip3,
+# Install mysqlclient, conditionally; TODO3
+exec { 'install_mysqlclient':
+  command => 'fab install_mysqlclient',
+  require => [Package['python3', 'pip'], Exec['openssl_fix']],
+  path    => "${facts['path']}",
+  unless  => "test `command -v mysqlclient`",
 }
 
 # Requirements installed implicitly: [Jinja2, Werkzeug, click, itsdangerous, importlib-metadata]
