@@ -40,10 +40,10 @@ service { 'nginx':
 
 # Use the puppetlabs/mysql module; to be installed by user
 class { '::mysql::server':
-  package_name     => 'mysql-server',
-  package_ensure   => '8.0.32-0ubuntu0.20.04.2',
-  root_password    => '',  # no password
-  restart          => true,
+  package_name   => 'mysql-server',
+  package_ensure => '8.0.32-0ubuntu0.20.04.2',
+  root_password  => '',  # no password
+  restart        => true,
   # service_provider => 'service',
 }
 
