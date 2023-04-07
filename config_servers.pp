@@ -190,6 +190,6 @@ package { 'gunicorn':
 }
 
 # Manage gunicorn systemd service unit file
-file { '/etc/systemd/system/':
-  source => "/home/${facts['identity']['user']}/servet_configs/gunicorn.service",
+file { '/etc/systemd/system/gunicorn.service':
+  source => "/home/ubuntu/servet_configs/gunicorn.service",
 }

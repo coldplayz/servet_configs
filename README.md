@@ -17,7 +17,12 @@
   ```
   I have a manifest declaration that was intented to do the refreshing automatically, but doesn't seem to work; probably for reasons not unrelated to execution context.
 
-  Finally, to set up the MySQL database for the backend, run:
+  Next, to set up the MySQL database for the backend, run:
   ```sh
   ./setup_db.sh
+  ```
+
+  Finally, to start the application server and enable it, execute:
+  ```sh
+  ./start_enable_gunicorn.sh
   ```
