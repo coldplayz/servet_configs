@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn service for Servet
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/servetMVP/backend
+Environment="PATH=/usr/local/bin"
+ExecStart=/usr/local/bin/gunicorn --workers 3 --bind 0.0.0.0:5000 --error-logfile /tmp/servet-error.log --access-logfile /tmp/servet-access.log api.v1.views.application:app
+
+[Install]
+WantedBy=multi-user.target

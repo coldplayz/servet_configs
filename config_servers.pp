@@ -188,3 +188,8 @@ package { 'gunicorn':
   require  => Package['python3', 'pip'],
   provider => pip3,
 }
+
+# Manage gunicorn systemd service unit file
+file { '/etc/systemd/system/':
+  source => "/home/${facts['identity']['user']}/servet_configs/gunicorn.service",
+}
