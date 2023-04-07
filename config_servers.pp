@@ -181,3 +181,10 @@ package { 'Fabric':
   require  => Package['python3', 'pip'],
   provider => pip3,
 }
+
+# Requirement: [setuptools]
+package { 'gunicorn':
+  ensure   => '20.1.0',
+  require  => Package['python3', 'pip'],
+  provider => pip3,
+}
