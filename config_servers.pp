@@ -46,6 +46,30 @@ file_line { 'rubyopt':
   line => "export RUBYOPT='-KU -E utf-8:utf-8'",
 }
 
+# Ensure SERVET_USER environment variable set
+file_line { 'servet_user':
+  path => '/etc/bash.bashrc',
+  line => "export SERVET_USER='servet_user'",
+}
+
+# Ensure SERVET_PWD environment variable set
+file_line { 'servet_pwd':
+  path => '/etc/bash.bashrc',
+  line => "export SERVET_PWD='servet_pwd'",
+}
+
+# Ensure SERVET_HOST environment variable is set
+file_line { 'servet_host':
+  path => '/etc/bash.bashrc',
+  line => "export SERVET_HOST='localhost'",
+}
+
+# Ensure SERVET_DB environment variable set
+file_line { 'servet_db':
+  path => '/etc/bash.bashrc',
+  line => "export SERVET_DB='servet_db'",
+}
+
 # Source the bashrc file on exporting RUBYOPT env. variable; TODO4
 exec { 'source_bashrc':
   command   => 'bash -c "source /etc/bash.bashrc"',
