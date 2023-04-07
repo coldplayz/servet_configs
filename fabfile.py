@@ -7,6 +7,8 @@ from os import getenv
 # Each task function must have at least one required argument for
 #...the connection context, built from the command line options.
 
+# fab replaces underscores with hyphens in task/function name when invoking as on CLI
+
 conn = Connection(user='ubuntu', host='54.90.28.253')  # host='172.26.6.58'
 conn2 = Connection(
         user='ubuntu',
@@ -119,6 +121,17 @@ def install_mysqlclient(ctx):
     connL.local('sudo apt-get install python3-dev && sudo apt-get install libmysqlclient-dev && sudo apt-get install zlib1g-dev')
     # Install mysqlclient
     connL.local('sudo pip3 install mysqlclient==2.1.1')
+
+def pip_fix(ctx):
+    ''' Applies a fix for an issue where Puppet
+        uses a problematic version of the pip binary.
+    '''
+    connL.local('sudo apt remove python3-pip')
+    connL.local('sudo apt autoremove && sudo apt autoclean')
+    connL.local('sudo python3 get-pip.py')
+    ''' get-pip.py should be in directory, fetched using
+        `wget https://bootstrap.pypa.io/get-pip.py`
+    '''
 
 
 # end block SPS

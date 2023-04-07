@@ -15,4 +15,4 @@ then
 fi
 
 # Hand over control to Puppet
-puppet apply --environment=servet config_server.pp
+puppet apply --environment=servet config_servers.pp  # add option `-vd` for debugging output

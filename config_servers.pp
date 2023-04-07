@@ -33,7 +33,7 @@ package { 'pip':
 
 # Apply OpenSSL fix, conditionally; TODO2
 exec { 'openssl_fix':
-  command => 'fab OpenSSL_fix',
+  command => 'fab OpenSSL-fix',  # fab replaces underscores with hyphens when invoking as on CLI
   require => Package['python3', 'pip'],
   path    => "${facts['path']}",
   unless  => "test -d /usr/local/lib/python3.8/dist-packages/pyOpenSSL-22.0.0.dist-info/",
@@ -48,7 +48,7 @@ file_line { 'rubyopt':
 
 # Source the bashrc file on exporting RUBYOPT env. variable; TODO4
 exec { 'source_bashrc':
-  command   => 'source /etc/bash.bashrc',
+  command   => 'bash -c "source /etc/bash.bashrc"',
   path      => "${facts['path']}",
   subscribe => File_line['rubyopt'],
 }
@@ -85,8 +85,16 @@ class { '::mysql::server':
 #  ensure => '1:2.25.1-1ubuntu3.8',
 #}
 
-package { 'curl':
-  ensure => installed,  # version '7.68.0-1ubuntu2.18' on my Android
+#package { 'curl':
+#  ensure => installed,  # version '7.68.0-1ubuntu2.18' on my Android
+#}
+
+# Apply pip fix, conditionally
+exec { 'pip_fix':
+  command => 'fab pip-fix',
+  require => Package['python3', 'pip'],
+  path    => "${facts['path']}",
+  unless  => 'test "$(pip show sqlalchemy)"',
 }
 
 # Requirements installed implicitly: [greenlet, typing-extensions]
@@ -98,10 +106,10 @@ package { 'SQLAlchemy':
 
 # Install mysqlclient, conditionally; TODO3
 exec { 'install_mysqlclient':
-  command => 'fab install_mysqlclient',
-  require => [Package['python3', 'pip'], Exec['openssl_fix']],
+  command => 'fab install-mysqlclient',  # fab replaces underscores with hyphens when invoking as on CLI
+  require => Package['python3', 'pip'],
   path    => "${facts['path']}",
-  unless  => "test `command -v mysqlclient`",
+  unless  => 'test "$(pip show mysqlclient)"',
 }
 
 # Requirements installed implicitly: [Jinja2, Werkzeug, click, itsdangerous, importlib-metadata]
