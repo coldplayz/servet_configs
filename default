@@ -1,0 +1,36 @@
+# Configure Nginx to proxy requests to /airbnb-onepage/ to the process listening on port 5000
+# Nginx must serve the page (served by the process) both locally and on its public IP port 80
+
+server {
+    # Listen on port 80
+    listen      80;
+    
+    # Use IP of server as domain name
+    # server_name 54.144.250.113;
+
+    # charset utf-8;
+    root /var/www/servet;
+    # root ~/apps/try_new/dist;
+    index index.html;
+    # Retain adding a custom HTTP response header
+    add_header  X-Served-By 93069-web-02;
+    # Proxy the request to /api/ route to application server (Gunicorn)
+    location /api {
+	include proxy_params;
+    	proxy_pass http://127.0.0.1:5000$uri?$args;
+    }
+    # Serve vue (servet) app by always serving index.html for any request
+    location / {
+    	# root /apps/ServetMVP/servetMVP/dist;
+    	try_files $uri $uri/ /index.html =404;
+    }
+    # log vue app errors
+    error_log /var/log/nginx/vue-app-error.log;
+    access_log /var/log/nginx/vue-app-access.log;
+    # 404 error page
+    error_page 404 /404.html;
+    location /404 {
+    	root /var/www/html;
+        internal;
+    }
+ }
